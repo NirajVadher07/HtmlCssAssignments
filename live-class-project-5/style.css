@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+	margin:0;
+	padding:0;
+	outline:0
+}
+body{
+    font-family: "Ubuntu","serif";
+    color: white;
+    background-color: #000000;
+    background-image: url("assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: 1800px;
+}
+.navbar{
+    height: 100px;
+    background-color: black;
+}
+.logo{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+}
+.list{
+    position: absolute;
+    top: 3%;
+    left: 20%;
+}
+.list-item{
+    list-style: none;
+    display: inline;
+    padding: 0 10px;
+    font-size: xx-large;
+}
+.list-item:hover{
+    color:#bd2be2;
+}
+.button-small{
+    position: absolute;
+    top: 3%;
+    right: 7.5%;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    border-color:#bd2be2;
+    font-size: x-large;
+    font-family: "Ubuntu";
+    background-color:#bd2be2;
+    color: white;
+}
+.hero{
+    
+}
+.hero-heading{
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    width: 1000px;
+    font-size: 500%;
+}
+.hero-description{
+    position: absolute;
+    top: 53%;
+    left: 22%;
+    font-size: large;
+    width: 1000px;
+}
+.button-large{
+    position: absolute;
+    top: 65%;
+    left: 42%;
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    border-color:#bd2be2;
+    font-size: x-large;
+    font-family: "Ubuntu";
+    background-color:#bd2be2;
+    color: white;
+}
